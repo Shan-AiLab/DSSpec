@@ -174,7 +174,7 @@ Including:<br>
 ## Relationship to Paper & Implementation
 ## 与论文及工程实现的关系
 
-  ‘’Decision Space Theory (paper)
+  `Decision Space Theory (paper)
         ↓ formalizes why
   DSSpec (this repository)
         ↓ defines how
@@ -186,7 +186,7 @@ Including:<br>
   DSSpec（本仓库）
         ↓ 定义“如何做”
   Cognito-OS（计划中，参考实现）
-        ↓ 展示“实际长什么样”‘’
+        ↓ 展示“实际长什么样”`
 
 
 ---
@@ -205,7 +205,7 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
 ## Planned Directory Structure
 ## 计划目录结构
 
-  ‘’/spec/
+  `/spec/
     ├── v0.2.md
     ├── v0.3.md (Perspective)
     ├── v0.4.md (Multi-Agent)
@@ -223,7 +223,7 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
   /reference/
     ├── glossary.md
     ├── constraints.md
-    ├── principles.md‘’
+    ├── principles.md`
 
 ---
 
