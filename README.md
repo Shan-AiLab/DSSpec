@@ -33,8 +33,9 @@ To do that, they must expose structured decision semantics, not just data.<br>
 未来的系统必须能够被 AI 理解。<br>
 为了做到这一点，它们必须暴露结构化的决策语义，而不仅仅是数据。
 
-DSSpec aims to build a shared decision language across industries, enabling humans, AI agents, and digital systems to understand decisions in the same structured way.<br>
-DSSpec 致力于构建跨行业的共享决策语言，使人类、AI 智能体和数字系统能够以同一种结构化方式理解决策。
+> 💡
+> **DSSpec aims to build a shared decision language across industries, enabling humans, AI agents, and digital systems to understand decisions in the same  > structured way.** <br>
+> **DSSpec 致力于构建跨行业的共享决策语言，使人类、AI 智能体和数字系统能够以同一种结构化方式理解决策。**
 
 This specification is an early step toward AI-deployable, interoperable decision ecosystems grounded in computable reasoning.<br>
 该规范是迈向可由 AI 部署、可互操作，并基于可计算推理的下一代决策生态的早期步骤。
@@ -56,11 +57,21 @@ This led to:<br>
 - expensive integrations<br>
   对接成本高昂
 
-AI therefore is unable to collaborate meaningfully<br>
-AI 因此无法与业务进行有效协作
+AI therefore is unable to collaborate meaningfully:<br>
+AI 因此无法与业务进行有效协作：<br>
+AI receives data but not the underlying decision structure. Enterprise systems give AI numbers, logs, and tables—but not the semantics of what matters, what is allowed, or how trade-offs should be made.<br>
+AI 收到的是数据，而不是业务背后的决策结构。企业系统向 AI 提供的是数字、记录、表格——而不是“什么重要、哪些允许、如何取舍”的语义。<br>
 
-AI is forcing a paradigm shift<br>
-AI 正在推动范式转变。
+Without an explicit decision model, AI cannot reason, cannot align with real constraints, and cannot participate in operational decisions safely.<br>
+缺乏显式的决策模型，AI 无法推理、无法对齐真实约束，也无法安全地参与业务决策。
+
+
+> 💡<br>
+> **AI is forcing a paradigm shift:** <br>
+> **AI 正在推动范式转变：** <br>
+> **Real adoption requires moving beyond workflows, forms, and dashboards toward explicit decision modeling.** <br>
+> **真正的 AI 落地要求企业从流程、表单、看板思维，转向显式的决策建模。**
+
 
 To integrate AI into real-world processes, systems must reveal:<br>
 为了让 AI 进入真实业务流程，系统必须暴露：
@@ -135,7 +146,7 @@ AI 智能体可以组装完整的 DS，并透明地回答：
 - What assumptions were used?<br>
   使用了哪些假设？
   
-**Systems stop being data islands and become decision-ready components.**
+**Systems stop being data islands and become decision-ready components.** <\br>
 **系统不再是数据孤岛，而成为可决策组件。**
 
 
@@ -163,19 +174,23 @@ Including:<br>
 
 ## Relationship to Paper & Implementation 与论文及工程实现的关系
 
+   ```
   Decision Space Theory (paper)
         ↓ formalizes why
   DSSpec (this repository)
         ↓ defines how
   Cognito-OS (planning, reference implementation)
         ↓ shows what it looks like in practice
+ ```
 
+ ```
   决策空间理论（论文）
         ↓ 奠定“为什么”
   DSSpec（本仓库）
         ↓ 定义“如何做”
   Cognito-OS（计划中，参考实现）
         ↓ 展示“实际长什么样”
+ ```
 
 
 ## Draft Specification 草案文档
@@ -189,7 +204,8 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
 
 ## Planned Directory Structure 计划目录结构
 
-  <code>/spec/
+  ```
+  /spec/
     ├── v0.2.md
     ├── v0.3.md (Perspective)
     ├── v0.4.md (Multi-Agent)
@@ -207,9 +223,10 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
   /reference/
     ├── glossary.md
     ├── constraints.md
-    ├── principles.md<code>
+    ├── principles.md
+```
 
----
+
 
 ## Versioning 版本管理
 
@@ -227,23 +244,38 @@ DSSpec 采用灵活的语义化版本模型：
 All updates are documented in CHANGELOG.md.<br>
 所有更新记录在 CHANGELOG.md 中。
 
+## Contributing 贡献方式
+
+DSSpec is an open evolving standard. Contributions are welcome:
+DSSpec 是开放演化的规范，欢迎贡献：
+- Conceptual feedback
+  概念反馈
+- Schema proposals
+  Schema 建议
+- Domain examples
+  行业案例
+- Reference implementations
+  参考实现
+- Terminology refinements
+  术语优化
+
 
 ## Roadmap 路线图
 
-v0.6 — Formal semantics of Perspective<br>
-v0.6 — 视角的形式语义
+- v0.6 — Formal semantics of Perspective<br>
+  v0.6 — 视角的形式语义
 
-v0.7 — Multi-Agent decision coupling<br>
-v0.7 — 多智能体决策耦合
+- v0.7 — Multi-Agent decision coupling<br>
+  v0.7 — 多智能体决策耦合
 
-v1.0 — Complete auditable specification<br>
-v1.0 — 完整可审查规范
+- v1.0 — Complete auditable specification<br>
+  v1.0 — 完整可审查规范
 
 
 ## Contact 联系方式
 
 Email: chenshancscs@gmail.com<br>
 X: @Shan_AiNote<br>
-Medium: Shan_AiNote
+Medium: [Shan_AiNote](https://medium.com/@Shan_AiNote)
 
 
