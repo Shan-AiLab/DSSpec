@@ -3,7 +3,7 @@ EN: A formal specification defining the minimal computable structure for AI-nati
 CN: 定义 AI 原生决策系统最小可计算结构的形式化规范。
 
 
-# Decision Space Specification (DSSpec) 决策空间规范（DSSpec）
+# Decision Space Specification (DSSpec)<br> 决策空间规范（DSSpec）
 
 Version 0.4 — Early Draft<br>
 0.4 版 —— 初始草案<br>
@@ -89,7 +89,7 @@ DSSpec 提供了企业系统与 AI 推理之间缺失的语义层。
 
 
 
-## Why DSSpec? A Short Story 为什么需要 DSSpec？（一个简短故事）
+## Why DSSpec? A Short Story<br> 为什么需要 DSSpec？（一个简短故事）
 
 Imagine a hospital deciding whether to purchase a new CT machine.<br>
 想象一家医院要决定是否购买一台新的 CT 设备。
@@ -117,7 +117,7 @@ Because systems expose data—not decisions.<br>
 因为系统暴露的是数据，而不是决策。
 
 
-## With DSSpec 有了 DSSpec
+## With DSSpec<br> 有了 DSSpec
 
 Each system exposes its fragment of the Decision Space:<br>
 每个系统都会暴露自己的决策空间片段：
@@ -146,11 +146,11 @@ AI 智能体可以组装完整的 DS，并透明地回答：
 - What assumptions were used?<br>
   使用了哪些假设？
   
-**Systems stop being data islands and become decision-ready components.** <\br>
+**Systems stop being data islands and become decision-ready components.** <br>
 **系统不再是数据孤岛，而成为可决策组件。**
 
 
-## What DSSpec Defines DSSpec 定义的内容
+## What DSSpec Defines<br> DSSpec 定义的内容
 
 DSSpec formalizes the structure of a Decision Space:<br>
 DSSpec 形式化定义决策空间结构：
@@ -172,7 +172,7 @@ Including:<br>
 
 
 
-## Relationship to Paper & Implementation 与论文及工程实现的关系
+## Relationship to Paper & Implementation<br> 与论文及工程实现的关系
 
    ```
   Decision Space Theory (paper)
@@ -193,7 +193,7 @@ Including:<br>
  ```
 
 
-## Draft Specification 草案文档
+## Draft Specification<br> 草案文档
 
 Latest Draft (Feishu):https://ai.feishu.cn/wiki/A6rKwRLhGi0WSekwkPMc5Ke1nCe <br>
 最新草案（飞书）：（中文版暂无）
@@ -202,7 +202,7 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
 草案稳定后将发布在 /spec/ 目录下的版本快照中。
 
 
-## Planned Directory Structure 计划目录结构
+## Planned Directory Structure<br> 计划目录结构
 
   ```
   /spec/
@@ -228,7 +228,7 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
 
 
 
-## Versioning 版本管理
+## Versioning<br> 版本管理
 
 DSSpec follows a flexible semantic versioning model:<br>
 DSSpec 采用灵活的语义化版本模型：
@@ -244,7 +244,7 @@ DSSpec 采用灵活的语义化版本模型：
 All updates are documented in CHANGELOG.md.<br>
 所有更新记录在 CHANGELOG.md 中。
 
-## Contributing 贡献方式
+## Contributing<br> 贡献方式
 
 DSSpec is an open evolving standard. Contributions are welcome:
 DSSpec 是开放演化的规范，欢迎贡献：
@@ -260,7 +260,7 @@ DSSpec 是开放演化的规范，欢迎贡献：
   术语优化
 
 
-## Roadmap 路线图
+## Roadmap<br> 路线图
 
 - v0.6 — Formal semantics of Perspective<br>
   v0.6 — 视角的形式语义
@@ -272,7 +272,7 @@ DSSpec 是开放演化的规范，欢迎贡献：
   v1.0 — 完整可审查规范
 
 
-## Contact 联系方式
+## Contact<br> 联系方式
 
 Email: chenshancscs@gmail.com<br>
 X: @Shan_AiNote<br>
