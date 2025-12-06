@@ -2,16 +2,14 @@
 EN: A formal specification defining the minimal computable structure for AI-native decision systems.  <br>
 CN: 定义 AI 原生决策系统最小可计算结构的形式化规范。
 
----
 
-# Decision Space Specification (DSSpec)<br>
-# 决策空间规范（DSSpec）
+# Decision Space Specification (DSSpec) 决策空间规范（DSSpec）
 
 Version 0.4 — Early Draft<br>
 0.4 版 —— 初始草案<br>
 
-## Overview<br>
-## 概述
+
+## Overview 概述
 
 DSSpec defines the minimal semantic structure a system must expose to become AI-native: interpretable, composable, and capable of real decision collaboration with agents.<br>
 DSSpec 定义了一个系统要成为 AI 原生、可解释、可组合、并能与智能体协同决策所必须暴露的最小语义结构。
@@ -27,10 +25,8 @@ This repository contains the evolving draft of DSSpec, version history, and refe
 DSSpec is not a final standard. It is a foundation that will evolve rapidly with contributions from researchers, engineers, designers, and domain experts.<br>
 DSSpec 不是最终标准，而是一个将在研究者、工程师、设计师和行业专家共同推动下快速演化的基础。
 
----
 
-## Vision
-## 愿景
+## Vision 愿景
 
 Systems of the future must be understandable by AI.<br>
 To do that, they must expose structured decision semantics, not just data.<br>
@@ -43,10 +39,8 @@ DSSpec 致力于构建跨行业的共享决策语言，使人类、AI 智能体�
 This specification is an early step toward AI-deployable, interoperable decision ecosystems grounded in computable reasoning.<br>
 该规范是迈向可由 AI 部署、可互操作，并基于可计算推理的下一代决策生态的早期步骤。
 
----
 
-## Motivation
-## 动机
+## Motivation 动机
 
 For decades, digital systems were designed around data—not decisions.<br>
 数十年来，数字系统都是围绕数据构建的——而不是围绕决策。
@@ -82,10 +76,9 @@ To integrate AI into real-world processes, systems must reveal:<br>
 DSSpec provides the missing semantic layer between enterprise systems and AI reasoning.<br>
 DSSpec 提供了企业系统与 AI 推理之间缺失的语义层。
 
----
 
-## Why DSSpec? A Short Story
-## 为什么需要 DSSpec？（一个简短故事）
+
+## Why DSSpec? A Short Story 为什么需要 DSSpec？（一个简短故事）
 
 Imagine a hospital deciding whether to purchase a new CT machine.<br>
 想象一家医院要决定是否购买一台新的 CT 设备。
@@ -112,10 +105,8 @@ Yet no system can answer:<br>
 Because systems expose data—not decisions.<br>
 因为系统暴露的是数据，而不是决策。
 
----
 
-## With DSSpec
-## 有了 DSSpec
+## With DSSpec 有了 DSSpec
 
 Each system exposes its fragment of the Decision Space:<br>
 每个系统都会暴露自己的决策空间片段：
@@ -147,9 +138,8 @@ AI 智能体可以组装完整的 DS，并透明地回答：
 **Systems stop being data islands and become decision-ready components.**
 **系统不再是数据孤岛，而成为可决策组件。**
 
----
-## What DSSpec Defines
-## DSSpec 定义的内容
+
+## What DSSpec Defines DSSpec 定义的内容
 
 DSSpec formalizes the structure of a Decision Space:<br>
 DSSpec 形式化定义决策空间结构：
@@ -169,30 +159,26 @@ Including:<br>
 - Multi-agent coupling rules<br>
   多智能体耦合规则
 
----
 
-## Relationship to Paper & Implementation
-## 与论文及工程实现的关系
 
-  `Decision Space Theory (paper)
+## Relationship to Paper & Implementation 与论文及工程实现的关系
+
+  Decision Space Theory (paper)
         ↓ formalizes why
   DSSpec (this repository)
         ↓ defines how
   Cognito-OS (planning, reference implementation)
-        ↓ shows what it looks like in practice‘’
+        ↓ shows what it looks like in practice
 
-  ‘’决策空间理论（论文）
+  决策空间理论（论文）
         ↓ 奠定“为什么”
   DSSpec（本仓库）
         ↓ 定义“如何做”
   Cognito-OS（计划中，参考实现）
-        ↓ 展示“实际长什么样”`
+        ↓ 展示“实际长什么样”
 
 
----
-
-## Draft Specification
-## 草案文档
+## Draft Specification 草案文档
 
 Latest Draft (Feishu):https://ai.feishu.cn/wiki/A6rKwRLhGi0WSekwkPMc5Ke1nCe <br>
 最新草案（飞书）：（中文版暂无）
@@ -200,12 +186,10 @@ Latest Draft (Feishu):https://ai.feishu.cn/wiki/A6rKwRLhGi0WSekwkPMc5Ke1nCe <br>
 Archived versions will be added under /spec/ as the draft stabilizes.<br>
 草案稳定后将发布在 /spec/ 目录下的版本快照中。
 
----
 
-## Planned Directory Structure
-## 计划目录结构
+## Planned Directory Structure 计划目录结构
 
-  `/spec/
+  <code>/spec/
     ├── v0.2.md
     ├── v0.3.md (Perspective)
     ├── v0.4.md (Multi-Agent)
@@ -223,12 +207,11 @@ Archived versions will be added under /spec/ as the draft stabilizes.<br>
   /reference/
     ├── glossary.md
     ├── constraints.md
-    ├── principles.md`
+    ├── principles.md<code>
 
 ---
 
-## Versioning
-## 版本管理
+## Versioning 版本管理
 
 DSSpec follows a flexible semantic versioning model:<br>
 DSSpec 采用灵活的语义化版本模型：
@@ -244,10 +227,8 @@ DSSpec 采用灵活的语义化版本模型：
 All updates are documented in CHANGELOG.md.<br>
 所有更新记录在 CHANGELOG.md 中。
 
----
 
-## Roadmap
-## 路线图
+## Roadmap 路线图
 
 v0.6 — Formal semantics of Perspective<br>
 v0.6 — 视角的形式语义
@@ -258,10 +239,8 @@ v0.7 — 多智能体决策耦合
 v1.0 — Complete auditable specification<br>
 v1.0 — 完整可审查规范
 
----
 
-## Contact
-## 联系方式
+## Contact 联系方式
 
 Email: chenshancscs@gmail.com<br>
 X: @Shan_AiNote<br>
